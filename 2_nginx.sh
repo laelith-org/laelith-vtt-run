@@ -1,0 +1,1 @@
+podman run --name nginx -dt --volume /home/vince/run/nginx/laelith-vtt.conf:/etc/nginx/conf.d/default.conf --volume /home/vince/run/nginx/site:/var/www/html --volume /home/vince/run/letsencrypt:/etc/letsencrypt --pod laelith docker.io/library/nginx
