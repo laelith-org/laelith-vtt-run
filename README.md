@@ -15,6 +15,8 @@ run 0_run.sh to run nginx+laelith.
 mkdir letsencrypt
 ```
 run certbot.sh to create a valid ssl certificate.
+
+### TLS auto renew
 ```
 sudo crontab -e
 ```
